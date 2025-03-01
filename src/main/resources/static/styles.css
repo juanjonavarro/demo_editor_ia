@@ -1,0 +1,47 @@
+body {
+    font-family:  'Literata', serif;
+    color: #333;
+    line-height: 1.4;
+    font-size: 110%;
+}
+
+#contenido {
+    outline:  none;
+    margin-left: 20px;
+    width: 550px;
+}
+
+#contenido > *  {
+    padding-right: 100px;
+    /*outline: 1px solid #ccc;*/
+}
+
+#contenido > ul {
+    padding-left: 40px;
+}
+
+.iabuttons {
+    position: absolute;
+    left: 490px;
+    cursor: pointer;
+}
+
+.iabuttons i {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation: flash .5s infinite;
+}
